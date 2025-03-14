@@ -29,5 +29,5 @@ void ABulletBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-}
+} 
 
