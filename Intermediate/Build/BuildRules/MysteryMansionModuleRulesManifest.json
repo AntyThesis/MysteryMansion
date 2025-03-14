@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\MysteryMansion\\Source\\MysteryMansion\\MysteryMansion.Build.cs",
+		"D:\\Unreal Projects\\MysteryMansion\\Source\\MysteryMansion.Target.cs",
+		"D:\\Unreal Projects\\MysteryMansion\\Source\\MysteryMansionEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}

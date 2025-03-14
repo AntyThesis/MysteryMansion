@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MysteryMansion.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MysteryMansion.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MysteryMansionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MysteryMansion">
+      <UniqueIdentifier>{DEAFB9E3-679C-3CD7-8BEB-5CD3C9C1CAC8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MysteryMansion\MysteryMansion.Build.cs">
+      <Filter>Source\MysteryMansion</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansion.cpp">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansion.h">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansionCharacter.cpp">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansionCharacter.h">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansionGameMode.cpp">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansionGameMode.h">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansionPlayerController.cpp">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\MysteryMansionPlayerController.h">
+      <Filter>Source\MysteryMansion</Filter>
+    </ClCompile>
+    <Filter Include="Source\MysteryMansion\Private">
+      <UniqueIdentifier>{54095DC9-098E-3B81-AD2E-20C0B002EDD1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\BulletBase.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\Health_COMP.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MysteryMansion\Public">
+      <UniqueIdentifier>{7DC0D36B-CDAB-367C-B660-2560BF61059C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\BulletBase.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\Health_COMP.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MysteryMansion",
+			"Path": "..\\Source\\MysteryMansion.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MysteryMansionEditor",
+			"Path": "..\\Source\\MysteryMansionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
