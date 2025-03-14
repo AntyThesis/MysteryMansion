@@ -11,7 +11,10 @@
     <None Include="..\..\Source\MysteryMansionEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\LICENSE.txt" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -66,6 +69,9 @@
     <ClCompile Include="..\..\Source\MysteryMansion\Private\BulletBase.cpp">
       <Filter>Source\MysteryMansion\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\BulletPickupBase.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MysteryMansion\Private\Health_COMP.cpp">
       <Filter>Source\MysteryMansion\Private</Filter>
     </ClCompile>
@@ -73,6 +79,9 @@
       <UniqueIdentifier>{7DC0D36B-CDAB-367C-B660-2560BF61059C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MysteryMansion\Public\BulletBase.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\BulletPickupBase.h">
       <Filter>Source\MysteryMansion\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MysteryMansion\Public\Health_COMP.h">
