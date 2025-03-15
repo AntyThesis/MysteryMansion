@@ -72,6 +72,9 @@
     <ClCompile Include="..\..\Source\MysteryMansion\Private\BulletPickupBase.cpp">
       <Filter>Source\MysteryMansion\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\EnemyCharacterBase.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MysteryMansion\Private\Health_COMP.cpp">
       <Filter>Source\MysteryMansion\Private</Filter>
     </ClCompile>
@@ -82,6 +85,9 @@
       <Filter>Source\MysteryMansion\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MysteryMansion\Public\BulletPickupBase.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\EnemyCharacterBase.h">
       <Filter>Source\MysteryMansion\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MysteryMansion\Public\Health_COMP.h">

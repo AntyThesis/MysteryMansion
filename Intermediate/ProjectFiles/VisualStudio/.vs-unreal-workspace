@@ -1,0 +1,19 @@
+{
+  "targets": {
+    "MysteryMansionEditor": {
+      "targetType": "Editor",
+      "targetPath": "D:\\Unreal Projects\\MysteryMansion\\Source\\MysteryMansionEditor.Target.cs",
+      "projectPath": "D:\\Unreal Projects\\MysteryMansion\\MysteryMansion.uproject",
+      "configurations": [
+        "Development"
+      ],
+      "platforms": [
+        "Win64"
+      ],
+      "architectures": [],
+      "configurationsAndPlatforms": [
+        "Development-Win64"
+      ]
+    }
+  }
+}

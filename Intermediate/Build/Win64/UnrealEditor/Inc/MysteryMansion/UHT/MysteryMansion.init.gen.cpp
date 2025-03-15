@@ -23,13 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeMysteryMansion_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x2DF42FB1,
-				0xC9096780,
+				0x4A4105B2,
+				0xD257F675,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_MysteryMansion.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_MysteryMansion.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MysteryMansion(Z_Construct_UPackage__Script_MysteryMansion, TEXT("/Script/MysteryMansion"), Z_Registration_Info_UPackage__Script_MysteryMansion, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2DF42FB1, 0xC9096780));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MysteryMansion(Z_Construct_UPackage__Script_MysteryMansion, TEXT("/Script/MysteryMansion"), Z_Registration_Info_UPackage__Script_MysteryMansion, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4A4105B2, 0xD257F675));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

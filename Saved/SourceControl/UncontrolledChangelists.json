@@ -13,7 +13,13 @@
 				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/BPI_Interact.uasset",
 				"D:/Unreal Projects/MysteryMansion/Content/__ExternalActors__/TopDown/Maps/TopDownMap/1/G5/987GXJ0WQ2OWFUJR1WQ5SO.uasset",
 				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/IA_Interact.uasset",
-				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Input/IMC_Default.uasset"
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Input/IMC_Default.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/BP_EnemyCharacterBase.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/Characters/Mannequins/Materials/Instances/Quinn/EnemyColor1.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/Characters/Mannequins/Materials/Instances/Quinn/EnemyColor2.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/EnemyColor1.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/EnemyColor2.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/__ExternalActors__/TopDown/Maps/TopDownMap/7/WG/P7DDL9VKQC6UYHHTJMD9EF.uasset"
 			]
 		}
 	]

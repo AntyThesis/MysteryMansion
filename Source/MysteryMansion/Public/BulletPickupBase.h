@@ -16,9 +16,6 @@ public:
 	// Sets default values for this actor's properties
 	ABulletPickupBase();
 
-	//UPROPERTY(BlueprintReadWrite,EditAnywhere)
-	//UBoxComponent* BoxCollision = 0;
-
 
 protected:
 	// Called when the game starts or when spawned

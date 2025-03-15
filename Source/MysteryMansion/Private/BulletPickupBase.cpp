@@ -10,8 +10,6 @@ ABulletPickupBase::ABulletPickupBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 
-	//CreateDefaultSubobject<UBoxComponent>(TEXT("Collision"));
-
 
 }
 
