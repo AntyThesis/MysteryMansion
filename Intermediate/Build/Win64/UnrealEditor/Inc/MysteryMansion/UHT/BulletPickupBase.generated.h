@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYSTERYMANSION_BulletPickupBase_generated_h
 
-#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABulletPickupBase(); \
 	friend struct Z_Construct_UClass_ABulletPickupBase_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ABulletPickupBase)
 
 
-#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABulletPickupBase(ABulletPickupBase&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ABulletPickupBase();
 
 
-#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_9_PROLOG
-#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_12_GENERATED_BODY \
+#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_10_PROLOG
+#define FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_BulletPickupBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

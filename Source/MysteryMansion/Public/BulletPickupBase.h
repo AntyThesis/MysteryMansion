@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
 #include "BulletPickupBase.generated.h"
 
@@ -14,6 +15,10 @@ class MYSTERYMANSION_API ABulletPickupBase : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ABulletPickupBase();
+
+	//UPROPERTY(BlueprintReadWrite,EditAnywhere)
+	//UBoxComponent* BoxCollision = 0;
+
 
 protected:
 	// Called when the game starts or when spawned

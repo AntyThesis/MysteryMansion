@@ -8,7 +8,12 @@
 				"D:/Unreal Projects/MysteryMansion/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
 				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/BP_BulletBase.uasset",
-				"D:/Unreal Projects/MysteryMansion/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/JL/XT6YBIUYKHAJD66L414FBE.uasset"
+				"D:/Unreal Projects/MysteryMansion/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/JL/XT6YBIUYKHAJD66L414FBE.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/BP_BulletPickupBase.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/BPI_Interact.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/__ExternalActors__/TopDown/Maps/TopDownMap/1/G5/987GXJ0WQ2OWFUJR1WQ5SO.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Blueprints/IA_Interact.uasset",
+				"D:/Unreal Projects/MysteryMansion/Content/TopDown/Input/IMC_Default.uasset"
 			]
 		}
 	]
