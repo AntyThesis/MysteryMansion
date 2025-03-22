@@ -78,6 +78,15 @@
     <ClCompile Include="..\..\Source\MysteryMansion\Private\Health_COMP.cpp">
       <Filter>Source\MysteryMansion\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\Inventory_COMP.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\PistolWeapon_COMP.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Private\Weapon_COMP.cpp">
+      <Filter>Source\MysteryMansion\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MysteryMansion\Public">
       <UniqueIdentifier>{7DC0D36B-CDAB-367C-B660-2560BF61059C}</UniqueIdentifier>
     </Filter>
@@ -91,6 +100,15 @@
       <Filter>Source\MysteryMansion\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MysteryMansion\Public\Health_COMP.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\Inventory_COMP.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\PistolWeapon_COMP.h">
+      <Filter>Source\MysteryMansion\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MysteryMansion\Public\Weapon_COMP.h">
       <Filter>Source\MysteryMansion\Public</Filter>
     </ClCompile>
   </ItemGroup>

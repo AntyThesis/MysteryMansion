@@ -16,7 +16,7 @@ public:
 	// Sets default values for this character's properties
 	AEnemyCharacterBase();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite,EditAnywhere)
 	UHealth_COMP* HealthComponent;
 
 protected:
