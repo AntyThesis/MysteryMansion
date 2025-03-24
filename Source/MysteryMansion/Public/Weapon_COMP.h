@@ -38,6 +38,10 @@ public:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float Damage = 0.f;
 
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly)
+	TSubclassOf<ABulletBase> BulletBlueprint;
+
+
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float ReloadTime = 2.f;
 

@@ -43,6 +43,13 @@ AMysteryMansionCharacter::AMysteryMansionCharacter()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+
+
+	AttackArrow = CreateDefaultSubobject<UArrowComponent>(TEXT("AttackArrow"));
+	AttackArrow->SetupAttachment(RootComponent);
+
+
+
 }
 
 void AMysteryMansionCharacter::Tick(float DeltaSeconds)

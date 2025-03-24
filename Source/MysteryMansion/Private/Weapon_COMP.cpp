@@ -40,6 +40,14 @@ void UWeapon_COMP::FireWeapon()
 {
 	if (AsAMysteryMansionCharacter)
 	{
-		IsMelee = true;
-	}
+
+        FVector SpawnLocation = AsAMysteryMansionCharacter->AttackArrow->GetComponentLocation();
+        FRotator SpawnRotation = AsAMysteryMansionCharacter->GetActorRotation();
+
+
+        GetWorld()->SpawnActor<ABulletBase>(BulletBlueprint, SpawnLocation, SpawnRotation);
+
+      
+    }
 }
+	

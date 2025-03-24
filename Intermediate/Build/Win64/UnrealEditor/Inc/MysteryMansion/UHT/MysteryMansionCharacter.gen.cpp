@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeMysteryMansionCharacter() {}
 
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 MYSTERYMANSION_API UClass* Z_Construct_UClass_AMysteryMansionCharacter();
@@ -35,6 +36,11 @@ struct Z_Construct_UClass_AMysteryMansionCharacter_Statics
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "MysteryMansionCharacter.h" },
 		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "MysteryMansionCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttackArrow_MetaData[] = {
+		{ "Category", "MysteryMansionCharacter" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MysteryMansionCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TopDownCameraComponent_MetaData[] = {
@@ -62,6 +68,7 @@ struct Z_Construct_UClass_AMysteryMansionCharacter_Statics
 #endif
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttackArrow;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TopDownCameraComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -71,9 +78,11 @@ struct Z_Construct_UClass_AMysteryMansionCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMysteryMansionCharacter_Statics::NewProp_AttackArrow = { "AttackArrow", nullptr, (EPropertyFlags)0x001000000009000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMysteryMansionCharacter, AttackArrow), Z_Construct_UClass_UArrowComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttackArrow_MetaData), NewProp_AttackArrow_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMysteryMansionCharacter_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMysteryMansionCharacter, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TopDownCameraComponent_MetaData), NewProp_TopDownCameraComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMysteryMansionCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMysteryMansionCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraBoom_MetaData), NewProp_CameraBoom_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMysteryMansionCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMysteryMansionCharacter_Statics::NewProp_AttackArrow,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMysteryMansionCharacter_Statics::NewProp_TopDownCameraComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMysteryMansionCharacter_Statics::NewProp_CameraBoom,
 };
@@ -118,10 +127,10 @@ AMysteryMansionCharacter::~AMysteryMansionCharacter() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_MysteryMansionCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMysteryMansionCharacter, AMysteryMansionCharacter::StaticClass, TEXT("AMysteryMansionCharacter"), &Z_Registration_Info_UClass_AMysteryMansionCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMysteryMansionCharacter), 611677269U) },
+		{ Z_Construct_UClass_AMysteryMansionCharacter, AMysteryMansionCharacter::StaticClass, TEXT("AMysteryMansionCharacter"), &Z_Registration_Info_UClass_AMysteryMansionCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMysteryMansionCharacter), 221159836U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_MysteryMansionCharacter_h_2103989706(TEXT("/Script/MysteryMansion"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_MysteryMansionCharacter_h_3057791050(TEXT("/Script/MysteryMansion"),
 	Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_MysteryMansionCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_MysteryMansionCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

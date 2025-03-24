@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/ArrowComponent.h"
 #include "MysteryMansionCharacter.generated.h"
 
 UCLASS(Blueprintable)
@@ -16,6 +17,11 @@ public:
 
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
+
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly)
+	UArrowComponent* AttackArrow;
+
 
 	/** Returns TopDownCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }

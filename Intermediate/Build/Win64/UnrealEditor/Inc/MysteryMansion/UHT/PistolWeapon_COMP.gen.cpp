@@ -85,10 +85,10 @@ UPistolWeapon_COMP::~UPistolWeapon_COMP() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_PistolWeapon_COMP_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPistolWeapon_COMP, UPistolWeapon_COMP::StaticClass, TEXT("UPistolWeapon_COMP"), &Z_Registration_Info_UClass_UPistolWeapon_COMP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPistolWeapon_COMP), 2505369315U) },
+		{ Z_Construct_UClass_UPistolWeapon_COMP, UPistolWeapon_COMP::StaticClass, TEXT("UPistolWeapon_COMP"), &Z_Registration_Info_UClass_UPistolWeapon_COMP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPistolWeapon_COMP), 1212796902U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_PistolWeapon_COMP_h_2051166301(TEXT("/Script/MysteryMansion"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_PistolWeapon_COMP_h_3082980728(TEXT("/Script/MysteryMansion"),
 	Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_PistolWeapon_COMP_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_PistolWeapon_COMP_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

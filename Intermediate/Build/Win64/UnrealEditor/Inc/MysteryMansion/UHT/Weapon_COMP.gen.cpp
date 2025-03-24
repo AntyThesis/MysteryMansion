@@ -10,7 +10,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWeapon_COMP() {}
 
 // Begin Cross Module References
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+MYSTERYMANSION_API UClass* Z_Construct_UClass_ABulletBase_NoRegister();
 MYSTERYMANSION_API UClass* Z_Construct_UClass_UWeapon_COMP();
 MYSTERYMANSION_API UClass* Z_Construct_UClass_UWeapon_COMP_NoRegister();
 UPackage* Z_Construct_UPackage__Script_MysteryMansion();
@@ -88,6 +90,10 @@ struct Z_Construct_UClass_UWeapon_COMP_Statics
 		{ "Category", "Weapon_COMP" },
 		{ "ModuleRelativePath", "Public/Weapon_COMP.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BulletBlueprint_MetaData[] = {
+		{ "Category", "Weapon_COMP" },
+		{ "ModuleRelativePath", "Public/Weapon_COMP.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReloadTime_MetaData[] = {
 		{ "Category", "Weapon_COMP" },
 		{ "ModuleRelativePath", "Public/Weapon_COMP.h" },
@@ -99,6 +105,7 @@ struct Z_Construct_UClass_UWeapon_COMP_Statics
 	static const UECodeGen_Private::FIntPropertyParams NewProp_BulletsInClip;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReserveBullets;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Damage;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_BulletBlueprint;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReloadTime;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
@@ -120,6 +127,7 @@ const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UWeapon_COMP_Sta
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_BulletsInClip = { "BulletsInClip", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeapon_COMP, BulletsInClip), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BulletsInClip_MetaData), NewProp_BulletsInClip_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_ReserveBullets = { "ReserveBullets", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeapon_COMP, ReserveBullets), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReserveBullets_MetaData), NewProp_ReserveBullets_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeapon_COMP, Damage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Damage_MetaData), NewProp_Damage_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_BulletBlueprint = { "BulletBlueprint", nullptr, (EPropertyFlags)0x0014000000010005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeapon_COMP, BulletBlueprint), Z_Construct_UClass_UClass, Z_Construct_UClass_ABulletBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BulletBlueprint_MetaData), NewProp_BulletBlueprint_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_ReloadTime = { "ReloadTime", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeapon_COMP, ReloadTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReloadTime_MetaData), NewProp_ReloadTime_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UWeapon_COMP_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_Name,
@@ -127,6 +135,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UWeapon_C
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_BulletsInClip,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_ReserveBullets,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_Damage,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_BulletBlueprint,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeapon_COMP_Statics::NewProp_ReloadTime,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UWeapon_COMP_Statics::PropPointers) < 2048);
@@ -170,10 +179,10 @@ UWeapon_COMP::~UWeapon_COMP() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_Weapon_COMP_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWeapon_COMP, UWeapon_COMP::StaticClass, TEXT("UWeapon_COMP"), &Z_Registration_Info_UClass_UWeapon_COMP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeapon_COMP), 2262520281U) },
+		{ Z_Construct_UClass_UWeapon_COMP, UWeapon_COMP::StaticClass, TEXT("UWeapon_COMP"), &Z_Registration_Info_UClass_UWeapon_COMP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeapon_COMP), 2567064345U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_Weapon_COMP_h_3300521776(TEXT("/Script/MysteryMansion"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_Weapon_COMP_h_722511307(TEXT("/Script/MysteryMansion"),
 	Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_Weapon_COMP_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_MysteryMansion_Source_MysteryMansion_Public_Weapon_COMP_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
